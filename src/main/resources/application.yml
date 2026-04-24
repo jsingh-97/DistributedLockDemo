@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: distributed-lock-demo
+
+  # PostgreSQL (running in Docker)
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lockdemo
+    username: demo
+    password: demo123
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
