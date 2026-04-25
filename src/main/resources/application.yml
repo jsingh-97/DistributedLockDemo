@@ -13,6 +13,10 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 5
 
+  jpa:
+    hibernate:
+      ddl-auto: validate # It runs a startup check that every @Entity class has a matching table with the right columns and types in the database
+
   data:
     redis:
       host: localhost
