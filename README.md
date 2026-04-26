@@ -7,7 +7,7 @@ Run `docker-compose stop`
 Start previously stopped containers
 Run `docker-compose start`
 Stops and removes containers(full cleanup)
-Run `docker-compose down   `
+Run `docker-compose down`
 
 # Notes
 
